@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+</head>
+<body>
+    <style>
+        body{
+            
+            padding-top: 5%;
+            width:90%;
+            height:100%;
+       display:flex;
+       justify-content:center;
+       align-items:center;
+       align-content:center;
+       background-image: url(ne.gif);
+       background-repeat:no-repeat;
+       background-size: 90%;
+       background-position: center;
+       background-color:rgb(3, 3, 19);
+        
+}
+        form{
+            width:30%;
+            height: 40%;
+            display:flex;
+            margin-left:13%;
+            flex-direction: column;
+            align-content:center;
+            justify-content: center;
+            padding-top:2%;
+            padding-left:2%;
+            padding-right: 3%;
+            padding-bottom:3% ;
+            border-radius: 10px;
+            background:linear-gradient(rgb(154, 2, 154,0.05),rgb(145, 211, 237),plum);
+            box-shadow: 3px 6px 32px 3px rgb(209, 26, 209);  
+        }
+        label{
+            font-family:Georgia, 'Times New Roman', Times, serif;
+             font-weight: bold;
+             margin-left:30px;
+             color:indigo;
+             font-size: 18px;
+             
+        }   
+        input{
+            width:60%;
+            margin: 3%;
+            border:none;
+            outline: none;
+            background:transparent;
+            color:midnightblue ;
+            border-bottom: 2px solid cyan;
+           }
+           h1{
+                text-align:center;
+                color: cyan;
+           }
+           button{
+            width:30%;
+            padding-top: 2%;
+            padding-bottom:2%;
+            font-size: 15px;
+            font-weight:bold;
+            background-color:rgb(52, 5, 76);
+            box-shadow: 2px 2px 2px rgb(145, 211, 237);
+            border: none;
+            color: azure;
+            align-items: center;
+            margin-left: 18%;
+           }
+           
+
+
+    </style>
+    <form action="" method="post">
+    <h1>Sign in</h1>
+    <p>For New Registration</p>
+    
+     <label for="fname">First Name</label>
+     <input type="text" id="fname" name="fname" placeholder="Enter Your Firstname" required>
+     <label for="lname">Last Name</label>
+     <input type="text" id="lname" name="lname" placeholder="Enter Your Lastname">
+     <label for="email">Email</label>
+     <input type="email" id="email" name="email" placeholder="Enter Your Email Address" required>
+     <label for="pwd">Password</label>
+     <input type="password" id="pwd" name="pwd" placeholder="Enter the Password" required>
+     <label for="ph"> Contact Number</label>
+     <input type="number" id="ph" name="ph" placeholder="Enter your Contact Number"maxlength="10">
+     <button type="submit">Sign In</button>
+    </form>
+    
+</body>
+</html>

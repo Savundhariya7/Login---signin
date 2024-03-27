@@ -1,0 +1,146 @@
+body{
+    background-image:linear-gradient(rgb(195, 0, 0),white);
+    width: 90%;
+    background-repeat:repeat-x ;
+}
+ul{
+   background-color:rgba(202, 28, 28, 0.815);
+   width: 80%;
+   height:60px;
+   padding-top:25px;
+   position:fixed;
+   top:0;
+   left: 0;
+   margin-top:0;
+   margin-left: 0;
+   margin-right: 0;
+   padding-top:19px;
+  
+}
+li{
+    display: inline-block;
+   padding-top: 15px;
+   padding-right:2%;
+   
+}
+#land{
+    display:inline-block;
+    font-size:22px;
+    padding-top:3px;
+    margin-top: 10px;
+    padding-left:15%;
+    margin-left: 15px;
+    color: ghostwhite;
+}
+.rgt{
+   float:right;
+   font-size:20px;
+   
+}
+a{
+    text-decoration:none;
+    color: ghostwhite;
+}
+
+form{
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      width:99%;
+      align-items:center;
+      border-radius: 5px;
+      border:2px solid white;
+      background-color:rgb(255, 255, 255);
+      height:350px;
+      margin-right:20%;
+      margin-left:60%;
+      box-shadow: 2px 2px 3px brown;
+      
+}
+input{
+    width:80%;
+    height:26px;
+    margin-top:3%;
+    background-color:rgba(224, 224, 224, 0.795);
+    border-radius: 5px;
+}
+.head{
+    font-size:40px;
+    font-family:'Courier New', Courier, monospace;
+    margin-top:41%;
+    margin-left:15%;
+    font-weight:normal;
+    margin-bottom: auto;
+}
+select{
+    width: 83%;
+    height:28px;
+    margin-top:3%;
+    background-color:rgba(224, 224, 224, 0.795);
+    border-radius:5px;
+}
+.click{
+      width:70%;
+      height:33px;
+      margin-top:4%;
+      border-radius:20px;
+      background-color:rgb(255, 32, 32);
+      font-weight: bold;
+      font-size: 16px;
+}
+#one{
+    display:flex;
+    width: 80%;
+    justify-content: space-evenly;
+    padding-left:2%;
+    height: 50%;
+}
+p{
+    margin-left:15%;
+    font-size:20px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:ghostwhite;
+    
+}
+.for{
+    width:190%;
+    margin-top:15%;
+    margin-right:15%;
+    height: 70%;
+
+}
+ #get{
+    border:2px solid rgb(249, 190, 249);
+    border-radius:2px;
+    padding-left:12px;
+    padding-top: 7px;
+    padding-right:12px;
+    padding-bottom:7px;
+    border-radius: 2px;
+}
+#price{
+    align-items: center;
+    margin-left: 15%;
+    width:35%;
+    height:39px;
+    border:2px solid aqua;
+    border-radius:20px;
+    background-color: darkturquoise;
+    font-size: 15px;
+}
+.tab{
+    margin-left:10%;
+    width:250%;
+    margin-top:4%;
+    padding-left: 10%;
+    
+    
+}
+h1{
+    
+    padding-left: 30px;
+    padding-right: 40px;
+}
+.com{
+    color:brown;
+}

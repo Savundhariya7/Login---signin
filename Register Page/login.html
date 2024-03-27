@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <style>
+     
+body{
+    padding-top: 13%;
+    width:100%;
+    height:100%;
+    display: flex;
+    align-content: centre;
+    align-items:centre;
+    justify-content: center;
+    background-image :linear-gradient( to right,darkviolet,plum);
+    background-image: url(neo.jpg);
+    background-repeat: no-repeat;
+   background-size: 100%;
+
+}
+
+      form{
+           
+           width: 25%;
+           height:28%;
+           display:flex;
+           flex-direction: column;
+           background:rgba(225,225,255,0.08);
+           box-shadow: 2px 8px 32px 2px plum;
+           border-radius: 15px;
+           border: 3px solid rgba(184, 0, 181,0.05);
+}
+      h1{
+        font-style: oblique;
+         letter-spacing: 2px;
+
+      }
+      label{
+           font-size:16px;
+           margin-left: 4%;
+           color:rgb(110, 255, 183) ;
+      }
+      
+    input{
+        width:70% ;
+        margin:5% ;
+        background:transparent;
+        border:none;
+        outline:none;
+        color:white;
+        border-bottom:2px solid rgb(28, 224, 238);
+        
+    }
+     button{
+        width:70%;
+        margin-left:13%;
+        background-color:rgba(225, 225,225,0.06);
+        border:1px solid plum;
+        border-radius: 6px;
+        outline: none;
+        padding:5px 5px;
+        font-size: 21px;
+     } 
+     button:hover{
+        background-color:plum;
+        color:lightblue;
+     }
+     
+    </style
+</head>
+<body >
+    
+       <form action="" method="post">
+            <h1 style="text-align: center; color: goldenrod;"> LOGIN </h1>
+        
+            <label for="uname"> <b>USER NAME</b></label>
+            <input type="text,email" placeholder="Username,Email" id="uname" name="uname" required>
+            <i class="uil uil-envelope-alt"></i>
+            <br>
+          
+            <label for="psw"> <b>PASSWORD</b></label>
+            <input type="password" placeholder="Password" name="psw" required>
+         <br>
+           
+            <button type="submit"><b> LOGIN </b> </button>
+         
+            <a href=" "  style="font-size:19px;text-align:center; padding-top: 10px; color: deepskyblue;">Forget Password</a>
+            
+          <div class="Reg">
+             <p style="font-size: large; text-align: center; color: darkorange;"> Do you Registered?
+              <a href=" " style="color: lightpink;"> Register Now </a> </p>
+            </div>
+</body>
+</html>
